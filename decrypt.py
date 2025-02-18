@@ -1,8 +1,8 @@
 from Crypto.Cipher import AES
 
 # Hexdan bytlarga o'tkazishgit
-aes_key = bytes.fromhex("269d97273d0f2604887802b29d984aa66a534fcf57c44962068423374f148a95")
-encrypted_data = bytes.fromhex("d3733572aaa3a577393909b9665da127bae8952f45f99c0bcc5c329ebbfc00e6eefdb0ba7efd6b99e498")
+aes_key = bytes.fromhex("")
+encrypted_data = bytes.fromhex("")
 
 # IV va shifrlangan ma'lumotni ajratish
 iv = encrypted_data[:12]  # AES-GCM uchun 12 bayt IV
